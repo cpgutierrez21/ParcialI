@@ -24,7 +24,7 @@ public class Ejercicio2 {
     }
 
     public Object encontrarMayor() {
-        s="a es el mayor";
+    //    s="a es el mayor";
         if (a>b && a>c){s="a es el mayor";}
         else if (b>a && b>c){s="b es el mayor";}
         else{s="c es el mayor";}
