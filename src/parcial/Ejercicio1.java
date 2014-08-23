@@ -10,12 +10,12 @@ package parcial;
  *
  * @author F211
  */
-public class Mayor {
+public class Ejercicio1 {
     private int a=0;
     private int b=0;
     private String s;
 
-    public Mayor(int a, int b) {
+    public Ejercicio1(int a, int b) {
         if(a==b){throw new IllegalArgumentException("Los números deben ser distintos");}
         if (a==0 || b==0){throw new IllegalArgumentException("Los números deben ser diferentes de 0");}
         this.a=a;
